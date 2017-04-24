@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DrawableSample</string>
+    <string name="btn_square">直角矩形</string>
+    <string name="btn_text_circle_square">圆角矩形</string>
+    <string name="btn_text_np_solid">无填充带边框矩形</string>
+    <string name="btn_text_shadow">渐变</string>
+    <string name="png_pic">png picture file</string>
+    <string name="nine_pic">nine picture file</string>
+    <string name="layer_right">Layer right</string>
+    <string name="layer_left">Layer left</string>
+    <string name="state_button">State Button</string>
+    <string name="level_hint">Level值(0-100)</string>
+    <string name="level_description">本次演示将level的值设为0-100之间。\\n分四个等级:\\n0-25：A，26-50：B；51-75：C；75-100：D</string>
+</resources>

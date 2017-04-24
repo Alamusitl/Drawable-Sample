@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_launcher"/>
+    <item
+        android:bottom="@dimen/activity_main_margin"
+        android:drawable="@mipmap/ic_launcher"
+        android:right="@dimen/activity_main_margin"/>
+    <item
+        android:bottom="@dimen/layer_size_25"
+        android:drawable="@mipmap/ic_launcher"
+        android:right="@dimen/layer_size_25"/>
+</layer-list>
