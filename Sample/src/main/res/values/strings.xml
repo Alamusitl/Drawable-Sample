@@ -1,9 +1,5 @@
 <resources>
     <string name="app_name">DrawableSample</string>
-    <string name="btn_square">直角矩形</string>
-    <string name="btn_text_circle_square">圆角矩形</string>
-    <string name="btn_text_np_solid">无填充带边框矩形</string>
-    <string name="btn_text_shadow">渐变</string>
     <string name="png_pic">png picture file</string>
     <string name="nine_pic">nine picture file</string>
     <string name="layer_right">Layer right</string>

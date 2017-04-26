@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ShapeActivity"/>
+        <activity
+            android:name=".ShapeActivity"
+            android:theme="@style/Theme.PageIndicatorDefaults"/>
         <activity android:name=".BitmapActivity"/>
         <activity android:name=".NinePatchActivity"/>
         <activity android:name=".LayerActivity"/>

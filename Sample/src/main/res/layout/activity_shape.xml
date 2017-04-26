@@ -2,119 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:orientation="vertical"
-              android:paddingBottom="@dimen/activity_vertical_margin"
-              android:paddingLeft="@dimen/activity_horizontal_margin"
-              android:paddingRight="@dimen/activity_horizontal_margin"
-              android:paddingTop="@dimen/activity_vertical_margin">
+              android:orientation="vertical">
 
-    <Button
+    <com.owl.drawablesample.indicator.TabPageIndicator
+        android:id="@+id/id_shape_indicator"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_bg_selector"
-        android:text="@string/btn_square"
-        android:textColor="@drawable/btn_text_selector"/>
+        android:layout_height="wrap_content"/>
 
-    <Button
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_shape_view_pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_main_margin"
-        android:background="@drawable/btn_bg_circle"
-        android:text="@string/btn_text_circle_square"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_main_margin"
-        android:background="@drawable/btn_bg_no_solid"
-        android:text="@string/btn_text_np_solid"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_main_margin"
-        android:background="@drawable/btn_bg_shadow"
-        android:text="@string/btn_text_shadow"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_main_margin"
-        android:background="@drawable/line_imaginary"
-        android:layerType="software"/>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_main_margin"
-        android:background="@drawable/line_full"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_main_margin"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/img_bg_full"/>
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_main_margin"
-            android:layout_weight="1"
-            android:background="@drawable/img_bg_shadow_sweep"/>
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_main_margin"
-            android:layout_weight="1"
-            android:background="@drawable/img_bg_shadow_linear"/>
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_main_margin"
-            android:layout_weight="1"
-            android:background="@drawable/img_bg_shadow_radial"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_main_margin"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:background="@drawable/ring_bg_full"/>
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="@dimen/activity_main_margin"
-            android:layout_weight="1"
-            android:background="@drawable/ring_bg_shadow_sweep"/>
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="@dimen/activity_main_margin"
-            android:layout_weight="1"
-            android:background="@drawable/ring_bg_shadow_linear"/>
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="@dimen/activity_main_margin"
-            android:layout_weight="1"
-            android:background="@drawable/ring_bg_shadow_radial"/>
-    </LinearLayout>
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>

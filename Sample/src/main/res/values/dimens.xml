@@ -4,6 +4,12 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
 
     <dimen name="activity_main_margin">10dp</dimen>
-    <dimen name="stroke_width">5dp</dimen>
     <dimen name="layer_size_25">25dp</dimen>
+
+    <dimen name="shape_padding">15dp</dimen>
+    <dimen name="shape_corners">12dp</dimen>
+    <dimen name="shape_arc">50dp</dimen>
+    <dimen name="shape_stroke_width">5dp</dimen>
+    <dimen name="shape_stroke_dash_width">5dp</dimen>
+    <dimen name="shape_stroke_dash_gap">5dp</dimen>
 </resources>
