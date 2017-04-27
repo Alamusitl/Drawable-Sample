@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mClassList.add(InsetActivity.class);
         mClassList.add(ClipActivity.class);
         mClassList.add(ScaleActivity.class);
+        mClassList.add(RotateActivity.class);
     }
 
     private void initView() {

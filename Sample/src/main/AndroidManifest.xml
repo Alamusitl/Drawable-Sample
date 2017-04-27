@@ -28,6 +28,7 @@
         <activity android:name=".InsetActivity"/>
         <activity android:name=".ClipActivity"/>
         <activity android:name=".ScaleActivity"/>
+        <activity android:name=".RotateActivity"/>
     </application>
 
 </manifest>

@@ -5,6 +5,6 @@
         android:dither="true"
         android:filter="true"
         android:gravity="center"
-        android:src="@drawable/bmp_launcher">
+        android:src="@drawable/clip_res_cat">
 
 </bitmap>

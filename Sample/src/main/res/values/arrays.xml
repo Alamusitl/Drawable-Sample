@@ -11,5 +11,6 @@
         <item>Inset Drawable</item>
         <item>Clip Drawable</item>
         <item>Scale Drawable</item>
+        <item>Rotate Drawable</item>
     </array>
 </resources>
