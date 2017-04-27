@@ -10,6 +10,7 @@
     <dimen name="shape_corners">12dp</dimen>
     <dimen name="shape_arc">50dp</dimen>
     <dimen name="shape_stroke_width">5dp</dimen>
-    <dimen name="shape_stroke_dash_width">5dp</dimen>
-    <dimen name="shape_stroke_dash_gap">5dp</dimen>
+    <dimen name="shape_stroke_dash_width">10dp</dimen>
+    <dimen name="shape_stroke_dash_gap">7dp</dimen>
+    <dimen name="shape_oval_size">100dp</dimen>
 </resources>

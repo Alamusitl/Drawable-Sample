@@ -12,7 +12,7 @@
         android:minLevel="26"/>
 
     <item
-        android:drawable="@drawable/shape_rentangle"
+        android:drawable="@drawable/shape_rectangle"
         android:maxLevel="75"
         android:minLevel="51"/>
 

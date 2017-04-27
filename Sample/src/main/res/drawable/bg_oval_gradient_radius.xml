@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="oval"
+       android:useLevel="false">
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"/>
+
+    <size
+        android:width="@dimen/shape_oval_size"
+        android:height="@dimen/shape_oval_size"/>
+
+    <!-- useLevel 默认为false，如果为true，则在LevelListDrawable中使用 -->
+    <!-- gradientRadius 渐变的半径，放射渐变时才有效 -->
+    <!-- gradientRadius 在5.0以下系统不能加单位，否则渲染不出来 -->
+    <gradient
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:endColor="@color/colorPrimary"
+        android:gradientRadius="150"
+        android:startColor="@color/colorAccent"
+        android:type="radial"
+        android:useLevel="false"/>
+</shape>

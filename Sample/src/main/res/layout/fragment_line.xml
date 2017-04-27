@@ -5,66 +5,52 @@
               android:orientation="vertical">
 
     <TextView
-        style="@style/AppRectangle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_solid"
-        android:text="默认矩形"/>
-
-    <TextView
-        style="@style/AppRectangle"
+        style="@style/AppShapeStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_rectangle_padding"
-        android:text="矩形 + 内间距"/>
+        android:text="细实线"/>
 
     <TextView
-        style="@style/AppRectangle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_gradient"
-        android:text="矩形 + 渐变"/>
+        android:background="@drawable/bg_line_full"/>
 
     <TextView
-        style="@style/AppRectangle"
+        style="@style/AppShapeStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_corners"
-        android:text="矩形 + 圆角"/>
+        android:background="@drawable/bg_rectangle_padding"
+        android:text="细虚线"/>
 
     <TextView
-        style="@style/AppRectangle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_corners_top"
-        android:text="矩形 + 上部圆角"/>
+        android:background="@drawable/bg_line_dash"
+        android:layerType="software"/>
 
     <TextView
-        style="@style/AppRectangle"
+        style="@style/AppShapeStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_arc"
-        android:text="矩形 + 弧形"/>
+        android:background="@drawable/bg_rectangle_padding"
+        android:text="粗实线"/>
 
     <TextView
-        style="@style/AppRectangle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_stroke"
-        android:text="矩形 + 弧形 + 实线描边"/>
+        android:background="@drawable/bg_line_full_thick"/>
 
     <TextView
-        style="@style/AppRectangle"
+        style="@style/AppShapeStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_stroke_dash"
-        android:text="矩形 + 弧形 + 虚线线描边"/>
+        android:background="@drawable/bg_rectangle_padding"
+        android:text="更粗实线"/>
 
     <TextView
-        style="@style/AppRectangle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_stroke_only"
-        android:text="矩形 + 弧形 + 实线描边 + 镂空"/>
+        android:background="@drawable/bg_line_full_thick_more"/>
 
 </LinearLayout>

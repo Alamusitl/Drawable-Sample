@@ -2,69 +2,100 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:gravity="center_horizontal"
               android:orientation="vertical">
 
     <TextView
-        style="@style/AppRectangle"
-        android:layout_width="match_parent"
+        style="@style/AppShapeStyle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_solid"
-        android:text="默认矩形"/>
+        android:background="@drawable/bg_oval_solid"
+        android:text="椭圆"/>
 
     <TextView
-        style="@style/AppRectangle"
-        android:layout_width="match_parent"
+        style="@style/AppShapeStyle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_padding"
-        android:text="矩形 + 内间距"/>
+        android:background="@drawable/bg_oval_padding"
+        android:text="椭圆 + 内间距"/>
 
-    <TextView
-        style="@style/AppRectangle"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_gradient"
-        android:text="矩形 + 渐变"/>
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_main_margin">
 
-    <TextView
-        style="@style/AppRectangle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_corners"
-        android:text="矩形 + 圆角"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_oval_size"
+            android:gravity="center"
+            android:text="正圆 + 宽高"/>
 
-    <TextView
-        style="@style/AppRectangle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_corners_top"
-        android:text="矩形 + 上部圆角"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_main_margin"
+            android:background="@drawable/bg_oval_stroke"
+            android:gravity="center"
+            android:text="正圆 + 描边"/>
+    </LinearLayout>
 
-    <TextView
-        style="@style/AppRectangle"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_arc"
-        android:text="矩形 + 弧形"/>
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_main_margin">
 
-    <TextView
-        style="@style/AppRectangle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_stroke"
-        android:text="矩形 + 弧形 + 实线描边"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_oval_stroke_only"
+            android:gravity="center"
+            android:text="正圆 + 镂空"/>
 
-    <TextView
-        style="@style/AppRectangle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_stroke_dash"
-        android:text="矩形 + 弧形 + 虚线线描边"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_main_margin"
+            android:background="@drawable/bg_oval_stroke_dash"
+            android:gravity="center"
+            android:text="正圆 + 虚边"/>
 
-    <TextView
-        style="@style/AppRectangle"
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_rectangle_stroke_only"
-        android:text="矩形 + 弧形 + 实线描边 + 镂空"/>
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_main_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_oval_gradient_radius"
+            android:gravity="center"
+            android:text="正圆 + 渐变"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_main_margin"
+            android:background="@drawable/bg_oval_gradient_linear"
+            android:gravity="center"
+            android:text="正圆 + 线性"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_main_margin"
+            android:background="@drawable/bg_oval_gradient_sweep"
+            android:gravity="center"
+            android:text="正圆 + 扫描"/>
+    </LinearLayout>
+
 
 </LinearLayout>

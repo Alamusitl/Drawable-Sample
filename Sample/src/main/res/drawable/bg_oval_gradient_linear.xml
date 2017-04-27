@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="oval"
+       android:thickness="3dp"
+       android:useLevel="false">
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"/>
+
+    <size
+        android:width="@dimen/shape_oval_size"
+        android:height="@dimen/shape_oval_size"/>
+
+    <!-- angle渐变的角度，线性渐变时才有效，必须是45的倍数 -->
+    <!-- angle = 0 时从左到右 -->
+    <!-- angle = 90 时从下到上 -->
+    <!-- angle = 180 时从右到左 -->
+    <!-- angle = 270 时从上到下 -->
+    <gradient
+        android:angle="180"
+        android:endColor="@color/colorPrimary"
+        android:startColor="@color/colorAccent"
+        android:type="linear"/>
+</shape>
