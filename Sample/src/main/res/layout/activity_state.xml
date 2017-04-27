@@ -8,9 +8,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/btn_state_bg"
+        android:background="@drawable/bg_state_selector"
         android:text="@string/state_button"
-        android:textColor="@drawable/btn_state_text_selector"
+        android:textColor="@color/color_state_selector"
         android:textSize="16sp"/>
 
 </LinearLayout>

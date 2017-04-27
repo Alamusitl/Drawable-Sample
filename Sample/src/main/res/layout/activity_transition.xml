@@ -7,9 +7,9 @@
 
     <ImageView
         android:id="@+id/id_iv_transition"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/transition_pic"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/transition"/>
 
 </LinearLayout>

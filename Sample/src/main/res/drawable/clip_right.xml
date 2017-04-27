@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+      android:clipOrientation="horizontal"
+      android:drawable="@drawable/clip_res_cat"
+      android:gravity="left">
+
+    <!-- clipOrientation 裁剪的方向 -->
+    <!-- gravity 裁剪的位置 -->
+
+</clip>

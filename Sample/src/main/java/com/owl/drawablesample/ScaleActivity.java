@@ -15,13 +15,16 @@ public class ScaleActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scale);
 
-        ImageView view30 = (ImageView) findViewById(R.id.id_iv_scale_30);
-        view30.setImageLevel(1);
+        ImageView view0 = (ImageView) findViewById(R.id.id_scale_iv_0);
+        view0.setImageLevel(1);
 
-        ImageView view50 = (ImageView) findViewById(R.id.id_iv_scale_50);
+        ImageView view30 = (ImageView) findViewById(R.id.id_scale_iv_30);
+        view30.getDrawable().setLevel(5000);
+
+        ImageView view50 = (ImageView) findViewById(R.id.id_scale_iv_50);
         view50.setImageLevel(1);
 
-        ImageView view80 = (ImageView) findViewById(R.id.id_iv_scale_80);
+        ImageView view80 = (ImageView) findViewById(R.id.id_scale_iv_80);
         view80.setImageLevel(1);
     }
 }

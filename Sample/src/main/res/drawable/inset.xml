@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
-       android:drawable="@drawable/ic_launcher"
+       android:drawable="@drawable/bmp_launcher"
        android:insetBottom="10dp"
        android:insetLeft="100dp"
        android:insetRight="12dp"
        android:insetTop="30dp"
        android:visible="true">
+
+    <!-- 使用inset标签可以对drawable设置边距，inset可以设置背景drawable与View边界的距离 -->
+    <!-- visible 初始的可见性状态，默认为false -->
 
 </inset>

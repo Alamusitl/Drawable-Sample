@@ -2,22 +2,22 @@
 <level-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:drawable="@drawable/shape_black"
+        android:drawable="@drawable/bg_rectangle_gradient"
         android:maxLevel="25"
         android:minLevel="0"/>
 
     <item
-        android:drawable="@drawable/shape_oval"
+        android:drawable="@drawable/bg_oval_gradient_sweep"
         android:maxLevel="50"
         android:minLevel="26"/>
 
     <item
-        android:drawable="@drawable/shape_rectangle"
+        android:drawable="@drawable/bg_line_dash"
         android:maxLevel="75"
         android:minLevel="51"/>
 
     <item
-        android:drawable="@drawable/shape_ring"
+        android:drawable="@drawable/bg_ring_gradient_stroke"
         android:maxLevel="100"
         android:minLevel="76"/>
 

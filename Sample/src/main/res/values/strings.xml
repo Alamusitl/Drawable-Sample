@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">DrawableSample</string>
-    <string name="png_pic">png picture file</string>
-    <string name="nine_pic">nine picture file</string>
-    <string name="layer_right">Layer right</string>
-    <string name="layer_left">Layer left</string>
+    <string name="layer_right">Layer Right</string>
+    <string name="layer_left">Layer Left</string>
     <string name="state_button">State Button</string>
-    <string name="level_hint">Level值(0-100)</string>
-    <string name="level_description">本次演示将level的值设为0-100之间。\\n分四个等级:\\n0-25：A，26-50：B；51-75：C；75-100：D</string>
+    <string name="level_hint">Level值(0&#8211;100)</string>
+    <string name="level_description">本次演示将level的值设为0&#8211;100之间。\n分四个等级:\n0&#8211;25：A，26&#8211;50：B；51&#8211;75：C；75&#8211;100：D</string>
 </resources>
